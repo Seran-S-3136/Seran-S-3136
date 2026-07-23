@@ -1,0 +1,134 @@
+.education__card {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.education__accent {
+  height: 4px;
+  background: var(--gradient-primary);
+}
+
+.education__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 36px 40px;
+  gap: 40px;
+}
+
+.education__main {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.education__icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  min-width: 56px;
+  border-radius: var(--radius-md);
+  background: var(--gradient-primary);
+  color: white;
+}
+
+.education__degree {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.education__field {
+  font-size: 1rem;
+  color: var(--primary-light);
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.education__institution {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+}
+
+.education__meta {
+  display: flex;
+  gap: 16px;
+}
+
+.education__meta-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* CGPA Ring */
+.education__cgpa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.education__cgpa-ring {
+  position: relative;
+  width: 120px;
+  height: 120px;
+}
+
+.education__cgpa-svg {
+  width: 100%;
+  height: 100%;
+}
+
+.education__cgpa-progress {
+  transition: stroke-dasharray 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.education__cgpa-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.education__cgpa-value {
+  font-size: 1.6rem;
+  font-weight: 800;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1;
+}
+
+.education__cgpa-label {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 4px;
+}
+
+@media (max-width: 768px) {
+  .education__content {
+    flex-direction: column;
+    padding: 28px 24px;
+    text-align: center;
+  }
+
+  .education__main {
+    flex-direction: column;
+    align-items: center;
+  }
+}
