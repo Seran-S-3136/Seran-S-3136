@@ -1,7 +1,8 @@
+/* ===== ABOUT ===== */
 .about__content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 60px;
+  gap: 64px;
   align-items: start;
 }
 
@@ -12,55 +13,56 @@
 }
 
 .about__text p {
-  font-size: 1.05rem;
+  font-size: 1rem;
   color: var(--text-secondary);
   line-height: 1.8;
 }
 
 .about__text strong {
-  color: var(--primary-light);
+  color: var(--text-primary);
   font-weight: 600;
 }
 
 .about__highlights {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 14px;
 }
 
 .about__highlight-card {
   display: flex;
   align-items: flex-start;
   gap: 16px;
-  padding: 24px;
+  padding: 20px 22px;
 }
 
 .about__highlight-icon {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  background: var(--primary-subtle);
+  border: 1px solid var(--primary-border);
+  border-radius: var(--radius-md);
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 48px;
-  height: 48px;
-  min-width: 48px;
-  border-radius: var(--radius-md);
-  background: var(--gradient-primary);
-  color: white;
+  color: var(--primary);
 }
 
 .about__highlight-title {
-  font-size: 1.05rem;
+  font-size: 0.95rem;
   font-weight: 700;
   color: var(--text-primary);
   margin-bottom: 4px;
 }
 
 .about__highlight-desc {
-  font-size: 0.9rem;
-  color: var(--text-muted);
+  font-size: 0.875rem;
+  color: var(--text-secondary);
   line-height: 1.6;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 820px) {
   .about__content {
     grid-template-columns: 1fr;
     gap: 40px;

@@ -42,7 +42,7 @@ function Education() {
                   <circle
                     cx="60" cy="60" r="52"
                     fill="none"
-                    stroke="rgba(108, 92, 231, 0.1)"
+                    stroke="rgba(37, 99, 235, 0.1)"
                     strokeWidth="8"
                   />
                   <circle
@@ -57,8 +57,8 @@ function Education() {
                   />
                   <defs>
                     <linearGradient id="cgpaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                      <stop offset="0%" stopColor="#6c5ce7" />
-                      <stop offset="100%" stopColor="#00cec9" />
+                      <stop offset="0%" stopColor="#2563eb" />
+                      <stop offset="100%" stopColor="#0ea5e9" />
                     </linearGradient>
                   </defs>
                 </svg>

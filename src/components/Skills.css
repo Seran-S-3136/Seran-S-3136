@@ -1,3 +1,4 @@
+/* ===== SKILLS ===== */
 .skills__grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -5,22 +6,25 @@
 }
 
 .skills__category {
-  padding: 28px;
+  padding: 24px 26px;
 }
 
 .skills__category-header {
   display: flex;
   align-items: center;
-  gap: 12px;
-  margin-bottom: 24px;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border);
 }
 
 .skills__category-icon {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  line-height: 1;
 }
 
 .skills__category-title {
-  font-size: 1.05rem;
+  font-size: 0.95rem;
   font-weight: 700;
   color: var(--text-primary);
 }
@@ -28,30 +32,32 @@
 .skills__list {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 14px;
 }
 
 .skills__item-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 6px;
 }
 
 .skills__item-name {
-  font-size: 0.88rem;
-  font-weight: 500;
+  font-size: 0.85rem;
+  font-weight: 600;
   color: var(--text-secondary);
 }
 
 .skills__item-level {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--primary);
   font-family: var(--font-mono);
-  color: var(--text-muted);
 }
 
 .skills__bar {
   height: 6px;
-  background: rgba(108, 92, 231, 0.1);
+  background: var(--bg-muted);
   border-radius: var(--radius-full);
   overflow: hidden;
 }
@@ -60,27 +66,10 @@
   height: 100%;
   background: var(--gradient-primary);
   border-radius: var(--radius-full);
-  transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
-  position: relative;
+  animation: skill-fill 0.8s ease-out forwards;
 }
 
-.skills__bar-fill::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.15), transparent);
-  animation: shimmer 2s ease-in-out infinite;
-}
-
-@keyframes shimmer {
-  0% { transform: translateX(-100%); }
-  100% { transform: translateX(100%); }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 720px) {
   .skills__grid {
     grid-template-columns: 1fr;
   }

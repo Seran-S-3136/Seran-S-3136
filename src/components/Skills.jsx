@@ -53,7 +53,7 @@ const skillCategories = [
 
 function Skills() {
   return (
-    <section className="section" id="skills">
+    <section className="section section--alt" id="skills">
       <div className="container">
         <div className="section-header">
           <span className="section-label">Technical Skills</span>

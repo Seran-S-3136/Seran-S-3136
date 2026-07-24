@@ -53,7 +53,7 @@ function Contact() {
   }
 
   return (
-    <section className="section" id="contact">
+    <section className="section section--alt" id="contact">
       <div className="container">
         <div className="section-header">
           <span className="section-label">Contact</span>

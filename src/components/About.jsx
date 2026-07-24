@@ -21,7 +21,7 @@ const highlights = [
 
 function About() {
   return (
-    <section className="section" id="about">
+    <section className="section section--alt" id="about">
       <div className="container">
         <div className="section-header">
           <span className="section-label">About Me</span>

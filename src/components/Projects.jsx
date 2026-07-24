@@ -61,8 +61,6 @@ function Projects() {
         <div className="projects__grid">
           {projects.map((project, index) => (
             <div className={`projects__card glass-card projects__card--${project.color}`} key={index}>
-              <div className="projects__card-glow"></div>
-
               <div className="projects__card-header">
                 <div>
                   <span className="projects__card-subtitle">{project.subtitle}</span>

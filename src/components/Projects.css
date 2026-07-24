@@ -1,67 +1,70 @@
+/* ===== PROJECTS ===== */
 .projects__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 24px;
 }
 
 .projects__card {
-  padding: 32px;
-  position: relative;
-  overflow: hidden;
+  padding: 28px;
   display: flex;
   flex-direction: column;
+  gap: 16px;
+  position: relative;
+  overflow: hidden;
 }
 
-.projects__card-glow {
+/* Colored top accent bar per card */
+.projects__card::before {
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   height: 3px;
   border-radius: var(--radius-lg) var(--radius-lg) 0 0;
-  transition: height var(--transition-base);
 }
 
-.projects__card--primary .projects__card-glow {
-  background: var(--gradient-primary);
+.projects__card--primary::before {
+  background: var(--primary);
 }
 
-.projects__card--accent .projects__card-glow {
-  background: linear-gradient(135deg, var(--accent), var(--accent-light));
+.projects__card--accent::before {
+  background: var(--accent);
 }
 
-.projects__card--warm .projects__card-glow {
-  background: var(--gradient-warm);
+.projects__card--warm::before {
+  background: #f59e0b;
 }
 
-.projects__card:hover .projects__card-glow {
-  height: 4px;
-}
-
+/* Card header */
 .projects__card-header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 16px;
+  gap: 12px;
 }
 
 .projects__card-subtitle {
-  font-family: var(--font-mono);
-  font-size: 0.8rem;
-  color: var(--accent);
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
   letter-spacing: 1px;
+  margin-bottom: 4px;
 }
 
 .projects__card-title {
-  font-size: 1.35rem;
-  font-weight: 800;
+  font-size: 1.1rem;
+  font-weight: 700;
   color: var(--text-primary);
-  margin-top: 4px;
 }
 
 .projects__card-links {
   display: flex;
   gap: 8px;
+  flex-shrink: 0;
 }
 
 .projects__card-link {
@@ -71,31 +74,32 @@
   width: 36px;
   height: 36px;
   border-radius: var(--radius-sm);
-  color: var(--text-secondary);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
   text-decoration: none;
   transition: all var(--transition-fast);
-  border: 1px solid var(--border);
 }
 
 .projects__card-link:hover {
-  color: var(--primary-light);
-  background: rgba(108, 92, 231, 0.1);
-  border-color: var(--primary);
+  color: var(--primary);
+  border-color: var(--primary-border);
+  background: var(--primary-subtle);
 }
 
+/* Description */
 .projects__card-desc {
-  font-size: 0.92rem;
+  font-size: 0.9rem;
   color: var(--text-secondary);
   line-height: 1.7;
-  margin-bottom: 16px;
 }
 
+/* Points */
 .projects__card-points {
   list-style: none;
+  padding: 0;
   display: flex;
   flex-direction: column;
   gap: 8px;
-  margin-bottom: 20px;
   flex: 1;
 }
 
@@ -104,34 +108,38 @@
   align-items: flex-start;
   gap: 8px;
   font-size: 0.85rem;
-  color: var(--text-muted);
+  color: var(--text-secondary);
   line-height: 1.6;
 }
 
 .projects__point-icon {
-  color: var(--accent);
-  margin-top: 4px;
   flex-shrink: 0;
+  margin-top: 4px;
+  color: var(--primary);
 }
 
+/* Tags */
 .projects__card-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 7px;
+  padding-top: 4px;
+  border-top: 1px solid var(--border);
   margin-top: auto;
 }
 
 .projects__tag {
-  font-size: 0.72rem;
-  font-family: var(--font-mono);
-  color: var(--text-muted);
-  background: rgba(108, 92, 231, 0.08);
-  padding: 4px 10px;
-  border-radius: var(--radius-full);
+  display: inline-block;
+  padding: 3px 10px;
+  background: var(--bg-muted);
+  color: var(--text-secondary);
   border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  font-size: 0.72rem;
+  font-weight: 600;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 680px) {
   .projects__grid {
     grid-template-columns: 1fr;
   }
