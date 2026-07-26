@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Seran%20S&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Software%20Engineer%20%7C%20Full-Stack%20%26%20Cloud-Native%20Development&descAlignY=62&descSize=16" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=750&lines=Software+Engineer+%40+ABB;Full-Stack+%7C+React.js+%2B+Python+%2B+Cloud;Building+Role-Based+Web+Platforms;Quality-Driven+%7C+Cloud-Native+by+Design" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=750&lines=Software+Quality+Engineer+%40+ABB;Full-Stack+%7C+React.js+%2B+Python+%2B+Cloud;Building+Role-Based+Web+Platforms;Quality-Driven+%7C+Cloud-Native+by+Design" alt="Typing SVG" />
 
 </div>
 
@@ -150,8 +150,7 @@ print(me.motto())
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/serans2828)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:serans2828@gmail.com)
-
-<img src="https://komarev.com/ghpvc/?username=Seran-S-3136&label=Profile+Views&color=70a5fd&style=flat-square" alt="profile views" />
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/Seran-S-3136)
 
 </div>
 
