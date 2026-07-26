@@ -1,6 +1,6 @@
 <div align="center">
 
-![Seran S](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Seran%20S&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Software%20Engineer%20%7C%20Full-Stack%20%26%20Cloud-Native%20Development&descAlignY=62&descSize=16)
+![Seran S](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Seran%20S&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Software%20Engineer%20%7C%20Full-Stack%20and%20Cloud-Native%20Development&descAlignY=62&descSize=16)
 
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=750&lines=Software+Quality+Engineer+%40+ABB;Full-Stack+%7C+React.js+%2B+Python+%2B+Cloud;Building+Role-Based+Web+Platforms;Quality-Driven+%7C+Cloud-Native+by+Design)
 
@@ -132,4 +132,4 @@ print(me.motto())
 
 </div>
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling)
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&text=Seran%20S)
