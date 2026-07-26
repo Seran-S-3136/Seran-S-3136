@@ -41,20 +41,13 @@ print(me.motto())
 
 ## 🛠️ Tech Stack
 
-**Languages**
-<p> <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white"/> <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/> </p>
-
-**Frameworks & Libraries**
-<p> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/> <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white"/> <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/> <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/> <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/> </p>
-
-**Cloud & DevOps**
-<p> <img src="https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/> </p>
-
-**Databases**
-<p> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/> </p>
-
-**Quality Engineering & Data**
-<p> <img src="https://img.shields.io/badge/PyTest-0A9EDC?style=flat-square&logo=pytest&logoColor=white"/> <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white"/> <img src="https://img.shields.io/badge/Robot_Framework-000000?style=flat-square&logo=robotframework&logoColor=white"/> <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/> <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/> </p>
+| Category | Technologies |
+| :--- | :--- |
+| **Languages** | <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white"/> <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/> |
+| **Frameworks & Libraries** | <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/> <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white"/> <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/> <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/> <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/> |
+| **Cloud & DevOps** | <img src="https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/> |
+| **Databases** | <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/> |
+| **Quality Engineering & Data** | <img src="https://img.shields.io/badge/PyTest-0A9EDC?style=flat-square&logo=pytest&logoColor=white"/> <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white"/> <img src="https://img.shields.io/badge/Robot_Framework-000000?style=flat-square&logo=robotframework&logoColor=white"/> <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/> <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/> |
 
 ## 📊 GitHub Stats
 
@@ -106,35 +99,23 @@ print(me.motto())
 
 ## 🎯 Featured Projects
 
-<div align="center">
-
 | Project | Stack | Highlights |
-|---|---|---|
-| **[Time2Service](https://github.com/Seran-S-3136)** — Local Service Booking Platform | React.js, React Router, Tailwind CSS, Flask, JWT, MySQL | Full-stack service marketplace with 3 role-based portals (User, Worker, Admin); JWT-secured RESTful API; hand-tuned MySQL schema for booking transactions & availability locking |
-| **[Network Security: End-to-End ML Pipeline](https://ml-flow-end-to-end-pipeline.streamlit.app/)** | Python, Scikit-learn, Docker, GitHub Actions | Production-ready malicious URL detection pipeline covering all 6 stages (ingestion → inference); experiment tracking & drift monitoring enabled **15% faster** model iteration; zero-downtime cloud releases |
-| **[Agricultural Analysis Dashboard](https://github.com/Seran-S-3136/Power-BI-Agricultural-Analysis-Dashboard)** | Power BI, Relational Data Modeling | Analyzed crop yield, rainfall & soil data across **5+ regions**; EDA on **10,000+ records** improved resource allocation planning by **20%** |
-
-</div>
+| :--- | :--- | :--- |
+| **[Time2Service](https://github.com/Seran-S-3136)**<br/>*Local Service Booking Platform* | React.js, React Router, Tailwind CSS, Flask, JWT, MySQL | Full-stack service marketplace with 3 role-based portals (User, Worker, Admin); JWT-secured RESTful API; hand-tuned MySQL schema for booking transactions & availability locking |
+| **[Network Security](https://ml-flow-end-to-end-pipeline.streamlit.app/)**<br/>*End-to-End ML Pipeline* | Python, Scikit-learn, Docker, GitHub Actions | Production-ready malicious URL detection pipeline covering all 6 stages (ingestion → inference); experiment tracking & drift monitoring enabled **15% faster** model iteration; zero-downtime cloud releases |
+| **[Agricultural Dashboard](https://github.com/Seran-S-3136/Power-BI-Agricultural-Analysis-Dashboard)**<br/>*Power BI Analysis* | Power BI, Relational Data Modeling | Analyzed crop yield, rainfall & soil data across **5+ regions**; EDA on **10,000+ records** improved resource allocation planning by **20%** |
 
 ## 🏅 Achievements
 
-<div align="center">
-
 | 🏆 | Achievement | Details |
-|---|---|---|
-| 🎖️ | ABB Software Engineering Internship | Selected through a competitive hackathon-based process at a Fortune Global 500 technology & engineering leader |
-
-</div>
+| :---: | :--- | :--- |
+| 🎖️ | **ABB Software Engineering Internship** | Selected through a competitive hackathon-based process at a Fortune Global 500 technology & engineering leader |
 
 ## 🎓 Education
 
-<div align="center">
-
 | Degree | Institution | Year | Score |
-|---|---|---|---|
-| B.Tech, Artificial Intelligence & Data Science | K.S. Rangasamy College of Technology | 2023 – Present | CGPA: 8.35 |
-
-</div>
+| :--- | :--- | :---: | :---: |
+| **B.Tech, Artificial Intelligence & Data Science** | K.S. Rangasamy College of Technology | 2023 – Present | CGPA: 8.35 |
 
 ## 📚 Currently Learning
 
