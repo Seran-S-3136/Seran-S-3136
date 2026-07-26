@@ -82,7 +82,7 @@ print(me.motto())
 ## 💼 Work Experience
 
 <details>
-<summary><b>ABB — Software Engineering Intern | Aug 2025 – May 2026 | Bangalore, India</b></summary>
+<summary><b>ABB — Software Quality Engineering Intern | Aug 2025 – May 2026 | Bangalore, India</b></summary>
 <br>
 
 > `Python` `PyTest` `Playwright` `Robot Framework` `Azure DevOps` `CI/CD`
@@ -150,7 +150,6 @@ print(me.motto())
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/serans2828)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:serans2828@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/Seran-S-3136)
 
 <img src="https://komarev.com/ghpvc/?username=Seran-S-3136&label=Profile+Views&color=70a5fd&style=flat-square" alt="profile views" />
 
