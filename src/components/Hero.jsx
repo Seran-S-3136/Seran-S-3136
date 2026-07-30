@@ -1,4 +1,5 @@
 import { FiGithub, FiLinkedin, FiMail, FiArrowDown, FiFolder, FiDownload, FiMessageSquare } from 'react-icons/fi'
+import resumePdf from '../assest/Seran_S_CV_final_sde.pdf'
 import './Hero.css'
 
 function Hero() {
@@ -64,9 +65,8 @@ function Hero() {
               View Projects
             </a>
             <a
-              href="https://drive.google.com/file/d/your-resume-link/view"
-              target="_blank"
-              rel="noopener noreferrer"
+              href={resumePdf}
+              download="Seran_S_CV_final_sde.pdf"
               className="btn btn-outline"
             >
               <FiDownload size={16} />

@@ -51,7 +51,7 @@ function Education() {
                     stroke="url(#cgpaGradient)"
                     strokeWidth="8"
                     strokeLinecap="round"
-                    strokeDasharray={`${(8.35 / 10) * 327} 327`}
+                    strokeDasharray={`${(8.38 / 10) * 327} 327`}
                     transform="rotate(-90 60 60)"
                     className="education__cgpa-progress"
                   />
