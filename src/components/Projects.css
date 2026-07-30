@@ -34,7 +34,7 @@
 }
 
 .projects__card--warm::before {
-  background: #f59e0b;
+  background: var(--primary-light);
 }
 
 /* Card header */
@@ -131,9 +131,9 @@
 .projects__tag {
   display: inline-block;
   padding: 3px 10px;
-  background: var(--bg-muted);
-  color: var(--text-secondary);
-  border: 1px solid var(--border);
+  background: var(--primary-subtle);
+  color: var(--primary-dark);
+  border: 1px solid var(--primary-border);
   border-radius: var(--radius-full);
   font-size: 0.72rem;
   font-weight: 600;
