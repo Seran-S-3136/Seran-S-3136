@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import { FiMenu, FiX } from 'react-icons/fi'
-import resumePdf from '../assest/Seran_S_CV_final_sde.pdf'
 import './Navbar.css'
 
 const navLinks = [
@@ -47,6 +46,25 @@ function Navbar() {
     }
   }
 
+  const handleResumeDownload = async () => {
+    try {
+      const response = await fetch('/Seran_S_CV_final_sde.pdf')
+      const blob = await response.blob()
+      const url = window.URL.createObjectURL(
+        new Blob([blob], { type: 'application/pdf' })
+      )
+      const link = document.createElement('a')
+      link.href = url
+      link.setAttribute('download', 'Seran_S_CV_final_sde.pdf')
+      document.body.appendChild(link)
+      link.click()
+      link.parentNode.removeChild(link)
+      window.URL.revokeObjectURL(url)
+    } catch {
+      window.open('/Seran_S_CV_final_sde.pdf', '_blank')
+    }
+  }
+
   return (
     <nav className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
       <div className="navbar__container container">
@@ -67,13 +85,12 @@ function Navbar() {
             </li>
           ))}
           <li>
-            <a
-              href={resumePdf}
-              download="Seran_S_CV_final_sde.pdf"
+            <button
+              onClick={handleResumeDownload}
               className="btn btn-primary navbar__resume-btn"
             >
               Resume
-            </a>
+            </button>
           </li>
         </ul>
 

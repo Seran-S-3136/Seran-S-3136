@@ -1,8 +1,26 @@
 import { FiGithub, FiLinkedin, FiMail, FiArrowDown, FiFolder, FiDownload, FiMessageSquare } from 'react-icons/fi'
-import resumePdf from '../assest/Seran_S_CV_final_sde.pdf'
 import './Hero.css'
 
 function Hero() {
+  const handleResumeDownload = async () => {
+    try {
+      const response = await fetch('/Seran_S_CV_final_sde.pdf')
+      const blob = await response.blob()
+      const url = window.URL.createObjectURL(
+        new Blob([blob], { type: 'application/pdf' })
+      )
+      const link = document.createElement('a')
+      link.href = url
+      link.setAttribute('download', 'Seran_S_CV_final_sde.pdf')
+      document.body.appendChild(link)
+      link.click()
+      link.parentNode.removeChild(link)
+      window.URL.revokeObjectURL(url)
+    } catch {
+      window.open('/Seran_S_CV_final_sde.pdf', '_blank')
+    }
+  }
+
   return (
     <section className="hero" id="hero">
       {/* Background */}
@@ -64,14 +82,13 @@ function Hero() {
               <FiFolder size={16} />
               View Projects
             </a>
-            <a
-              href={resumePdf}
-              download="Seran_S_CV_final_sde.pdf"
+            <button
+              onClick={handleResumeDownload}
               className="btn btn-outline"
             >
               <FiDownload size={16} />
               Resume
-            </a>
+            </button>
             <a
               href="#contact"
               className="btn btn-outline"
