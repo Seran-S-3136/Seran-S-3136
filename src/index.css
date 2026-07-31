@@ -1,5 +1,5 @@
 /* ===== GOOGLE FONTS ===== */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=JetBrains+Mono:wght@400;500&display=swap');
 
 /* ===== CSS RESET & VARIABLES ===== */
 *,
@@ -11,48 +11,49 @@
 }
 
 :root {
-  /* === Color Palette: Clean Navy + Slate === */
-  /* Primary — deep navy blue */
-  --primary: #2563eb;
-  --primary-light: #3b82f6;
-  --primary-dark: #1d4ed8;
-  --primary-subtle: rgba(37, 99, 235, 0.08);
-  --primary-border: rgba(37, 99, 235, 0.2);
+  /* === Color Palette: Warm Cream + Ochre/Amber === */
+  /* Primary — warm orange-brown */
+  --primary: #bf702a;
+  --primary-light: #d68741;
+  --primary-dark: #9c5315;
+  --primary-subtle: rgba(191, 112, 42, 0.06);
+  --primary-border: rgba(191, 112, 42, 0.18);
 
-  /* Accent — teal */
-  --accent: #0ea5e9;
-  --accent-light: #38bdf8;
+  /* Accent — warm green / yellow */
+  --accent: #15803d;
+  --accent-light: #22c55e;
 
   /* Backgrounds */
-  --bg-primary: #f8fafc;
+  --bg-primary: #FAF6F0;
   --bg-secondary: #ffffff;
   --bg-card: #ffffff;
-  --bg-muted: #f1f5f9;
+  --bg-muted: #F5EFEB;
 
   /* Text */
-  --text-primary: #0f172a;
-  --text-secondary: #475569;
-  --text-muted: #94a3b8;
+  --text-primary: #1A0F0A;
+  --text-secondary: #5C4A3F;
+  --text-muted: #9E8B80;
   --text-on-primary: #ffffff;
 
   /* Borders */
-  --border: #e2e8f0;
-  --border-hover: #cbd5e1;
+  --border: rgba(191, 112, 42, 0.1);
+  --border-hover: rgba(191, 112, 42, 0.22);
 
   /* Gradients */
-  --gradient-primary: linear-gradient(135deg, #2563eb 0%, #0ea5e9 100%);
-  --gradient-hero: linear-gradient(160deg, #eff6ff 0%, #f0f9ff 50%, #f8fafc 100%);
-  --gradient-section-alt: #f8fafc;
+  --gradient-primary: linear-gradient(135deg, #bf702a 0%, #15803d 100%);
+  --gradient-hero: radial-gradient(circle at 0% 0%, rgba(191, 112, 42, 0.08) 0%, transparent 60%), radial-gradient(circle at 100% 100%, rgba(191, 112, 42, 0.04) 0%, transparent 50%);
+  --gradient-section-alt: #F5EFEB;
 
   /* Shadows */
-  --shadow-xs: 0 1px 3px rgba(15, 23, 42, 0.06);
-  --shadow-sm: 0 2px 8px rgba(15, 23, 42, 0.06);
-  --shadow-md: 0 4px 20px rgba(15, 23, 42, 0.08);
-  --shadow-lg: 0 8px 40px rgba(15, 23, 42, 0.1);
-  --shadow-primary: 0 4px 20px rgba(37, 99, 235, 0.2);
+  --shadow-xs: 0 1px 3px rgba(26, 15, 10, 0.04);
+  --shadow-sm: 0 2px 12px rgba(26, 15, 10, 0.04);
+  --shadow-md: 0 10px 30px rgba(26, 15, 10, 0.06);
+  --shadow-lg: 0 16px 48px rgba(26, 15, 10, 0.08);
+  --shadow-primary: 0 6px 20px rgba(191, 112, 42, 0.25);
 
   /* Typography */
   --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
   --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
 
   /* Spacing */
@@ -80,6 +81,11 @@ html {
 body {
   font-family: var(--font-primary);
   background-color: var(--bg-primary);
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(191, 112, 42, 0.08) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(191, 112, 42, 0.04) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, rgba(191, 112, 42, 0.06) 0px, transparent 40%);
+  background-attachment: fixed;
   color: var(--text-primary);
   line-height: 1.7;
   overflow-x: hidden;
@@ -140,6 +146,7 @@ body {
 }
 
 .section-title {
+  font-family: var(--font-serif);
   font-size: clamp(1.75rem, 3.5vw, 2.5rem);
   font-weight: 800;
   color: var(--text-primary);

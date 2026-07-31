@@ -46,13 +46,31 @@ function Navbar() {
     }
   }
 
+  const handleResumeDownload = async () => {
+    try {
+      const response = await fetch('/Seran_S_CV_final_sde.pdf')
+      const blob = await response.blob()
+      const url = window.URL.createObjectURL(
+        new Blob([blob], { type: 'application/pdf' })
+      )
+      const link = document.createElement('a')
+      link.href = url
+      link.setAttribute('download', 'Seran_S_CV_final_sde.pdf')
+      document.body.appendChild(link)
+      link.click()
+      link.parentNode.removeChild(link)
+      window.URL.revokeObjectURL(url)
+    } catch {
+      window.open('/Seran_S_CV_final_sde.pdf', '_blank')
+    }
+  }
+
   return (
     <nav className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
       <div className="navbar__container container">
         <a href="#" className="navbar__logo" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-          <span className="navbar__logo-bracket">&lt;</span>
-          <span className="navbar__logo-text">Seran</span>
-          <span className="navbar__logo-bracket"> /&gt;</span>
+          <div className="navbar__logo-avatar">SS</div>
+          <span className="navbar__logo-text">Seran S</span>
         </a>
 
         <ul className={`navbar__links ${mobileOpen ? 'navbar__links--open' : ''}`}>
@@ -67,14 +85,12 @@ function Navbar() {
             </li>
           ))}
           <li>
-            <a
-              href="https://drive.google.com/file/d/your-resume-link/view"
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
+              onClick={handleResumeDownload}
               className="btn btn-primary navbar__resume-btn"
             >
               Resume
-            </a>
+            </button>
           </li>
         </ul>
 

@@ -10,9 +10,8 @@ function Footer() {
         <div className="footer__content">
           <div className="footer__brand">
             <a href="#" className="footer__logo" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-              <span className="footer__logo-bracket">&lt;</span>
-              <span>Seran</span>
-              <span className="footer__logo-bracket"> /&gt;</span>
+              <div className="footer__logo-avatar">SS</div>
+              <span className="footer__logo-text">Seran S</span>
             </a>
             <p className="footer__tagline">
               Building intelligent systems, one line of code at a time.

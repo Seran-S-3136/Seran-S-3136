@@ -51,14 +51,14 @@ function Education() {
                     stroke="url(#cgpaGradient)"
                     strokeWidth="8"
                     strokeLinecap="round"
-                    strokeDasharray={`${(8.35 / 10) * 327} 327`}
+                    strokeDasharray={`${(8.38 / 10) * 327} 327`}
                     transform="rotate(-90 60 60)"
                     className="education__cgpa-progress"
                   />
                   <defs>
                     <linearGradient id="cgpaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                      <stop offset="0%" stopColor="#2563eb" />
-                      <stop offset="100%" stopColor="#0ea5e9" />
+                      <stop offset="0%" stopColor="#bf702a" />
+                      <stop offset="100%" stopColor="#d68741" />
                     </linearGradient>
                   </defs>
                 </svg>
