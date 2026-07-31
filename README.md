@@ -106,13 +106,13 @@ print(me.motto())
 
 | 🏆 | Achievement | Details |
 | :---: | :--- | :--- |
-| 🎖️ | **ABB Software Engineering Internship** | Selected through a competitive hackathon-based process at a Fortune Global 500 technology & engineering leader |
+| 🎖️ | **ABB Software Quality Engineering Internship** | Selected through a competitive hackathon-based process at a Fortune Global 500 technology & engineering leader |
 
 ## 🎓 Education
 
 | Degree | Institution | Year | Score |
 | :--- | :--- | :---: | :---: |
-| **B.Tech, Artificial Intelligence & Data Science** | K.S. Rangasamy College of Technology | 2023 – Present | CGPA: 8.35 |
+| **B.Tech, Artificial Intelligence & Data Science** | K.S. Rangasamy College of Technology | 2023 – Present | CGPA: 8.38 |
 
 ## 📚 Currently Learning
 
